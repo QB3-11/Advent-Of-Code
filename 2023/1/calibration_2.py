@@ -2,8 +2,8 @@ file = 'input.txt'
 sum = 0
 nums = ('one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine')
 
-with open(file) as input:
-	lines = input.readlines()
+with open(file) as data:
+	lines = data.readlines()
 
 for line in lines:
 	tmp = []
