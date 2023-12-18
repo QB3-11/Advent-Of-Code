@@ -3,8 +3,8 @@ demo_file = 'demo.txt'
 cards = {1:1}
 sum = 0
 
-with open(file) as input:
-	scratch_cards = input.readlines()
+with open(file) as data:
+	scratch_cards = data.readlines()
 
 
 for card in scratch_cards:

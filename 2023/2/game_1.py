@@ -3,8 +3,8 @@ sum = 0
 
 balls = {'red':12, 'green':13, 'blue':14}
 
-with open(file) as input:
-	lines = input.readlines()
+with open(file) as data:
+	lines = data.readlines()
 
 for line in lines:
 	words = line.replace(';', '').replace(',', '').split()

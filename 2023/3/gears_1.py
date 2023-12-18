@@ -3,8 +3,8 @@ symbols = ('@', '#', '$', '%', '&', '*', '-', '+', '=', '/', '?')
 engine = []
 sum = 0
 
-with open(file) as input:
-	lines = input.readlines()
+with open(file) as data:
+	lines = data.readlines()
 
 for line in lines:
 	engine.append(list(line))
