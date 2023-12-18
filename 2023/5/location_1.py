@@ -3,8 +3,8 @@ demo_file = 'demo.txt'
 seeds = []
 values = []
 
-with open(demo_file) as input:
-	almanac = input.readlines()
+with open(demo_file) as data:
+	almanac = data.readlines()
 
 for seed in almanac[0].split(':')[-1].split():
 	seeds.append(int(seed))
